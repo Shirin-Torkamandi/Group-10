@@ -94,8 +94,79 @@
                     </tr>
                 </tbody>
             </table>
-          </section>
+          </section><hr />
+      <section>
+        <h3 id="form">Car Form</h3>
+        <form action="#nowhere">
+          <fieldset>
+            <legend>Do you have any Car?</legend>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" value="yes" name="yes-no" />
+            <label for="no">No</label>
+            <input type="radio" id="no" value="no" name="yes-no" />
+          </fieldset>
 
+          <fieldset>
+            <legend>Choose the number:</legend>
+            <label for="number">How many cars do you have?</label>
+            <input type="number" id="number" placeholder="for example: 2" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Which company made your car/cars?</legend>
+            <label for="BMW">BMW</label>
+            <input
+              type="checkbox"
+              id="BMW"
+              value="BMW"
+              checked
+            />
+
+            <label for="Ferrari">Ferrari</label>
+            <input
+              type="checkbox"
+              id="Ferrari"
+              value="Ferrari"
+            />
+
+            <label for="Tesla">Tesla</label>
+            <input
+              type="checkbox"
+              id="Tesla"
+              value="Tesla"
+            />
+
+            <label for="Mercedes-Benz">Mercedes-Benz</label>
+            <input
+              type="checkbox"
+              id="Mercedes-Benz"
+              value="Mercedes-Benz"
+            />
+
+            <label for="other">Others</label>
+            <input type="text" id="other" placeholder="write it here!" />
+          </fieldset>
+
+          <label for="color">Choose your cars color:</label>
+          <input type="color" id="color" />
+          <br />
+          <label for="email">Write your E-mail please:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="like: shirin.t44@gmail.com"
+          />
+          <br />
+
+          <label for="password">Write a password:</label>
+          <input type="password" id="password" />
+
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
       </main>
           <hr>
       <footer>
