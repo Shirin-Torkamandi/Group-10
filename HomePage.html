@@ -16,13 +16,13 @@
           companies?
         </legend>
         <ul>
-          <li><a href="./BMW.html" target="_self">BMW</a></li>
-          <li><a href="./Ferrari.html" target="_self">Ferrari</a></li>
+          <li><a href="./BMW.html" target="_blank">BMW</a></li>
+          <li><a href="./Ferrari.html" target="_blank">Ferrari</a></li>
           <li>
-            <a href="./Tesla.html" target="_self">Tesla</a>
+            <a href="./Tesla.html" target="_blank">Tesla</a>
           </li>
           <li>
-            <a href="./MercedesBenz.html" target="_self">Mercedes Benz</a>
+            <a href="./MercedesBenz.html" target="_blank">Mercedes Benz</a>
           </li>
         </ul>
       </fieldset>
@@ -31,7 +31,7 @@
       <figure>
         <img
           src="https://www.bmw.com/content/dam/bmw/common/topics/fascination-bmw/electromobility2020-new/bev-new/update_2023/bmw-emobility-electric-vehicle-sp-desktop.jpg"
-          alt="Gorgeous Cars"
+          alt="Gorgeous-Cars"
         />
         <figcaption>Gorgeous Cars</figcaption>
       </figure>
@@ -194,7 +194,7 @@
           </fieldset>
 
           <fieldset>
-            <legend>Which company made your car/cars?</legend>
+            <legend>Which company/companies made your car/cars?</legend>
             <label for="BMW">BMW</label>
             <input type="checkbox" id="BMW" value="BMW" checked />
 
@@ -211,10 +211,10 @@
             <input type="text" id="other" placeholder="write it here!" />
           </fieldset>
 
-          <label for="color">Choose your cars color:</label>
+          <label for="color">Choose your car's color:</label>
           <input type="color" id="color" />
           <br />
-          <label for="email">Write your E-mail please:</label>
+          <label for="email">Write your E-mail address please:</label>
           <input
             type="email"
             name="email"
@@ -225,17 +225,21 @@
           <br />
 
           <label for="password">Write a password:</label>
-          <input type="password" id="password" /> <br />
-          <label for="story">Tell us your story:</label>
-
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="at least 8 characters"
+          />
+          <br />
+          <label for="story">Tell us your story:</label> <br />
           <textarea
             id="story"
             name="story"
             rows="5"
             cols="33"
-            placeholder="Don't forget that Sharing is caring!"
-          >
-          </textarea>
+            placeholder="one day when I was going back to home..."
+          ></textarea>
           <br />
           <button type="submit">Submit</button>
         </form>
@@ -244,18 +248,18 @@
     <hr />
     <footer>
       <section>
-        <p>Designed by group-10</p>
+        <h4>Designed by group-10</h4>
         <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#Header">Go to top</a></li>
-          <li><a href="#table">Go to Table</a></li>
+          <li><a href="#" target="_self">About Us</a></li>
+          <li><a href="#" target="_self">Contact Us</a></li>
+          <li><a href="#Header" target="_self">Go to top</a></li>
+          <li><a href="#table" target="_self">Go to Table</a></li>
         </ul>
       </section>
       <section>
         <details>
           <summary>
-            The websites that I get help from to make this web site:
+            The websites that I get help from to make this website:
           </summary>
           <a href="https://www.bmw.com/" target="_blank">BMW website</a>
           <br />
